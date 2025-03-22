@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 import { TestMethods } from './pages/testMethods.page';
 
 let testMethods: TestMethods;
-test.describe('main page', () => {
+test.describe('Registration page', () => {
 
   test.beforeEach(async ({ page }) => {
 
